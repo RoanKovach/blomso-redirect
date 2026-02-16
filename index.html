@@ -1,28 +1,16 @@
 <!doctype html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Redirecting…</title>
-    <meta http-equiv="refresh" content="0; url=https://blomso.ai/" />
+    <meta name="robots" content="noindex" />
     <script>
       (function () {
-        var targetOrigin = "https://blomso.ai";
-        var p = window.location.pathname || "/";
-        var q = window.location.search || "";
-        var h = window.location.hash || "";
-        window.location.replace(targetOrigin + p + q + h);
+        window.location.replace("https://blomso.ai/");
       })();
     </script>
+    <noscript>
+      <meta http-equiv="refresh" content="0; url=https://blomso.ai/" />
+    </noscript>
   </head>
-  <body>
-    <p>Redirecting to <a id="link" href="https://blomso.ai/">blomso.ai</a>…</p>
-    <script>
-      var targetOrigin = "https://blomso.ai";
-      var p = window.location.pathname || "/";
-      var q = window.location.search || "";
-      var h = window.location.hash || "";
-      document.getElementById("link").href = targetOrigin + p + q + h;
-    </script>
-  </body>
+  <body></body>
 </html>
